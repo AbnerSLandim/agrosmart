@@ -1,0 +1,105 @@
+AGROSMART - EXPLICAÇÃO DOS ARQUIVOS
+
+1. processamento_agrosmart.py
+Este arquivo corresponde à Parte 3 do projeto.
+
+Função:
+- Lê os dados brutos dos sensores.
+- Remove linhas vazias.
+- Remove registros duplicados.
+- Converte data e hora para o formato adequado.
+- Converte os valores numéricos para números.
+- Organiza os campos de texto.
+- Classifica a umidade do solo.
+- Prepara e salva o dataset processado.
+
+Arquivo de entrada:
+dados-base/leituras_sensores.csv
+
+Arquivo gerado:
+dataset_processado_agrosmart.csv
+
+
+2. dataset_processado_agrosmart.csv
+Este é o resultado do processamento realizado pelo arquivo processamento_agrosmart.py.
+
+Ele contém os dados dos sensores depois da limpeza e preparação para análise.
+
+Este arquivo é utilizado como entrada para a etapa de automação.
+
+
+3. automacao_agrosmart.py
+Este arquivo corresponde à Parte 4 do projeto.
+
+Função:
+- Lê o dataset processado.
+- Analisa os dados de temperatura e umidade.
+- Aplica regras de decisão.
+- Classifica o nível de risco como Normal, Moderado, Alto ou Sem dados.
+- Gera alertas automaticamente.
+- Gera recomendações para o usuário.
+- Define uma ação automática de acordo com o nível de risco.
+- Salva os resultados da automação.
+
+Exemplos de regras:
+- Umidade abaixo de 30% = risco alto.
+- Umidade abaixo de 40% = risco moderado.
+- Temperatura igual ou superior a 35°C = risco alto.
+- Temperatura igual ou superior a 30°C = risco moderado.
+
+Arquivo de entrada:
+dataset_processado_agrosmart.csv
+
+Arquivo gerado:
+resultado_automacao_agrosmart.csv
+
+
+4. resultado_automacao_agrosmart.csv
+Este arquivo contém os resultados produzidos pela automação.
+
+Além dos dados dos sensores, ele apresenta:
+- Nível de risco.
+- Alerta.
+- Recomendação.
+- Ação automática.
+
+Exemplo:
+
+Umidade: 25%
+Temperatura: 31°C
+Nível de risco: Alto
+Alerta: Situação de alto risco detectada
+Recomendação: Verificar necessidade de irrigação
+Ação automática: Intervenção recomendada
+
+
+FLUXO GERAL DO SISTEMA
+
+Dados dos sensores
+        |
+        v
+processamento_agrosmart.py
+        |
+        v
+dataset_processado_agrosmart.csv
+        |
+        v
+automacao_agrosmart.py
+        |
+        v
+Regras de decisão
+        |
+        +--> Classificação de risco
+        +--> Alerta
+        +--> Recomendação
+        +--> Ação automática
+        |
+        v
+resultado_automacao_agrosmart.csv
+
+
+RESUMO
+
+A Parte 3 é responsável por preparar os dados.
+
+A Parte 4 é responsável por interpretar os dados preparados e tomar decisões automaticamente com base em regras definidas para o AgroSmart.

@@ -17,7 +17,7 @@ Uso:
 import csv
 import json
 import random
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 SEMENTE = 20260905
@@ -195,7 +195,7 @@ def main():
             "condutividade_ds_m": exemplo["condutividade_ds_m"],
         },
         "cultura_associada": exemplo["cultura"],
-        "gerado_em": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "gerado_em": datetime.now(UTC).replace(microsecond=0).isoformat(),
     }
     caminho_json = RAIZ / "payload_sensor_mqtt.json"
     caminho_json.write_text(

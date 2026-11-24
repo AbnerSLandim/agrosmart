@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgroSmart - Status da execução</title>
+<style>
+body{font-family:system-ui,Segoe UI,Arial,sans-serif;margin:0;background:#f4f6f4;color:#1c2a1f}
+main{max-width:980px;margin:0 auto;padding:24px 16px}
+h1{margin:0 0 4px;font-size:1.5rem} h2{font-size:1.1rem;margin:28px 0 8px}
+.sub{color:#5f6b7a;margin:0 0 16px}
+.situacao{display:inline-block;padding:6px 14px;border-radius:6px;color:#fff;font-weight:700;
+background:#1b7f3b}
+.cartoes{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}
+.cartao{background:#fff;border:1px solid #d9e0d9;border-radius:8px;padding:12px}
+.cartao span{display:block;font-size:.8rem;color:#5f6b7a} .cartao b{font-size:1.4rem}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #d9e0d9;border-radius:8px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #eef1ee;font-size:.9rem}
+th{background:#e9eee9}
+.selo{color:#fff;border-radius:4px;padding:1px 8px;font-size:.75rem;font-weight:700}
+.erro{color:#b3261e} footer{margin-top:28px;color:#5f6b7a;font-size:.8rem}
+</style></head><body><main>
+<h1>AgroSmart - Status da execução</h1>
+<p class="sub">Ciclo 3 · início 2026-11-24T22:21:04Z · duração 2.13 s (UTC)</p>
+<span class="situacao">SAUDÁVEL</span>
+<div class="cartoes"><div class="cartao"><span>Leituras válidas</span><b>394</b></div><div class="cartao"><span>Descartes</span><b>3 (0.76%)</b></div><div class="cartao"><span>Sensores ativos</span><b>5</b></div><div class="cartao"><span>Alertas em campo</span><b>84 (23.3%)</b></div><div class="cartao"><span>Risco alto (campo)</span><b>38</b></div><div class="cartao"><span>Risco moderado (campo)</span><b>46</b></div></div>
+<h2>Etapas do pipeline</h2>
+<table><tr><th>Etapa</th><th>Status</th><th>Duração</th></tr><tr><td>Ingestão TinkerCad</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>0.06 s</td></tr><tr><td>Processamento</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>0.66 s</td></tr><tr><td>Automação</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>0.70 s</td></tr><tr><td>Dashboard</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>0.69 s</td></tr></table>
+<h2>Verificações de saúde</h2>
+<table><tr><th>Verificação</th><th>Status</th><th>Detalhe</th></tr><tr><td>Etapas do pipeline</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>4 etapas concluídas</td></tr><tr><td>Arquivos de saída atualizados</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>todos gerados neste ciclo</td></tr><tr><td>Taxa de descarte</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>0.76% (limite 5%)</td></tr><tr><td>Leituras sem dados</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>0.00% (limite 5%)</td></tr><tr><td>Leituras de campo em alerta</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>23.33% (limite 30%)</td></tr><tr><td>Duração do pipeline</td><td><span class="selo" style="background:#1b7f3b">OK</span></td><td>2.11 s (limite 60 s)</td></tr><tr><td>Atualidade dos dados</td><td><span class="selo" style="background:#5f6b7a">INFO</span></td><td>última leitura de campo há 83.6 dias (base sintética histórica; em produção seria um limite de alerta)</td></tr></table>
+<h2>Últimas execuções</h2>
+<table><tr><th>Início (UTC)</th><th>Duração</th><th>Situação</th><th>Etapas OK</th><th>Leituras válidas</th><th>Alertas campo</th></tr><tr><td>2026-11-24T22:21:04Z</td><td>2.13 s</td><td><span class="selo" style="background:#1b7f3b">OK</span> SAUDÁVEL</td><td>4/4</td><td>394</td><td>84</td></tr><tr><td>2026-11-24T22:21:00Z</td><td>2.15 s</td><td><span class="selo" style="background:#1b7f3b">OK</span> SAUDÁVEL</td><td>4/4</td><td>394</td><td>84</td></tr><tr><td>2026-11-24T22:20:56Z</td><td>2.40 s</td><td><span class="selo" style="background:#1b7f3b">OK</span> SAUDÁVEL</td><td>4/4</td><td>394</td><td>84</td></tr><tr><td>2026-11-24T21:23:00Z</td><td>1.05 s</td><td><span class="selo" style="background:#1b7f3b">OK</span> SAUDÁVEL</td><td>4/4</td><td>394</td><td>84</td></tr><tr><td>2026-11-24T21:22:58Z</td><td>1.11 s</td><td><span class="selo" style="background:#1b7f3b">OK</span> SAUDÁVEL</td><td>4/4</td><td>394</td><td>84</td></tr><tr><td>2026-11-24T21:22:56Z</td><td>1.13 s</td><td><span class="selo" style="background:#1b7f3b">OK</span> SAUDÁVEL</td><td>4/4</td><td>394</td><td>84</td></tr></table>
+<footer>Gerado por monitoramento/executor.py. Arquivo estático: reflete o último ciclo executado. Dados de campo sintéticos.</footer>
+</main></body></html>

@@ -1,0 +1,42 @@
+{
+  "ciclo": 1,
+  "inicio": "2026-11-24T19:34:04Z",
+  "fim": "2026-11-24T19:34:04Z",
+  "duracao_total_s": 0.34,
+  "situacao": "ATENÇÃO",
+  "etapas": [
+    {
+      "etapa": "Ingestão TinkerCad",
+      "duracao_s": 0.03,
+      "codigo": 0,
+      "status": "OK"
+    },
+    {
+      "etapa": "Processamento",
+      "duracao_s": 0.31,
+      "codigo": 1,
+      "status": "FALHA",
+      "erro": "ValueError: leituras_sensores.csv: colunas obrigatórias ausentes: ['umidade_solo_pct']"
+    }
+  ],
+  "verificacoes": [
+    {
+      "nome": "Etapas do pipeline",
+      "status": "ALERTA",
+      "detalhe": "falharam: Processamento"
+    },
+    {
+      "nome": "Arquivos de saída atualizados",
+      "status": "ALERTA",
+      "detalhe": "ausentes/desatualizados: dataset_processado_agrosmart.csv, registros_descartados.csv, resultado_automacao_agrosmart.csv, resumo_talhoes.csv, insights_automaticos.csv, agrosmart_dashboard.html"
+    },
+    {
+      "nome": "Leitura dos indicadores",
+      "status": "ALERTA",
+      "detalhe": "indicadores não calculados: pipeline falhou (arquivos em disco são de execução anterior)"
+    }
+  ],
+  "indicadores": {
+    "erro": "indicadores não calculados: pipeline falhou (arquivos em disco são de execução anterior)"
+  }
+}

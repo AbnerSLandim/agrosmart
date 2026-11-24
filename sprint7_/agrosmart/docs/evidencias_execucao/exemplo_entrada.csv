@@ -1,0 +1,4 @@
+sensor_id,data_hora,talhao,talhao_irrigado,umidade_solo_pct,temperatura_solo_c,status_sensor
+SM-PED-003,2026-07-23 09:00:00+00:00,Talhao 03 - Norte,False,6.1,22.0,operacional
+SM-PED-002,2026-07-14 09:00:00+00:00,Talhao 02 - Leste,True,21.0,26.0,operacional
+SM-PED-001,2026-06-05 09:00:00+00:00,Talhao 01 - Sul,True,36.9,22.1,operacional

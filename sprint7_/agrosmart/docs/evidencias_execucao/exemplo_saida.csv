@@ -1,0 +1,4 @@
+sensor_id,talhao,umidade_solo_pct,temperatura_solo_c,nivel_risco,tipo_alerta,acao_automatica
+SM-PED-003,Talhao 03 - Norte,6.1,22.0,Alto,Solo seco,Notificar produtor
+SM-PED-002,Talhao 02 - Leste,21.0,26.0,Moderado,Solo seco,Monitoramento reforçado
+SM-PED-001,Talhao 01 - Sul,36.9,22.1,Normal,Nenhum,Nenhuma ação necessária

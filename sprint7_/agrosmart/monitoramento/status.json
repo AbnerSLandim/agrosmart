@@ -1,0 +1,105 @@
+{
+  "ciclo": 3,
+  "inicio": "2026-11-24T22:21:04Z",
+  "fim": "2026-11-24T22:21:06Z",
+  "duracao_total_s": 2.13,
+  "situacao": "SAUDÁVEL",
+  "etapas": [
+    {
+      "etapa": "Ingestão TinkerCad",
+      "duracao_s": 0.06,
+      "codigo": 0,
+      "status": "OK"
+    },
+    {
+      "etapa": "Processamento",
+      "duracao_s": 0.66,
+      "codigo": 0,
+      "status": "OK"
+    },
+    {
+      "etapa": "Automação",
+      "duracao_s": 0.7,
+      "codigo": 0,
+      "status": "OK"
+    },
+    {
+      "etapa": "Dashboard",
+      "duracao_s": 0.69,
+      "codigo": 0,
+      "status": "OK"
+    }
+  ],
+  "verificacoes": [
+    {
+      "nome": "Etapas do pipeline",
+      "status": "OK",
+      "detalhe": "4 etapas concluídas"
+    },
+    {
+      "nome": "Arquivos de saída atualizados",
+      "status": "OK",
+      "detalhe": "todos gerados neste ciclo"
+    },
+    {
+      "nome": "Taxa de descarte",
+      "status": "OK",
+      "detalhe": "0.76% (limite 5%)"
+    },
+    {
+      "nome": "Leituras sem dados",
+      "status": "OK",
+      "detalhe": "0.00% (limite 5%)"
+    },
+    {
+      "nome": "Leituras de campo em alerta",
+      "status": "OK",
+      "detalhe": "23.33% (limite 30%)"
+    },
+    {
+      "nome": "Duração do pipeline",
+      "status": "OK",
+      "detalhe": "2.11 s (limite 60 s)"
+    },
+    {
+      "nome": "Atualidade dos dados",
+      "status": "INFO",
+      "detalhe": "última leitura de campo há 83.6 dias (base sintética histórica; em produção seria um limite de alerta)"
+    }
+  ],
+  "indicadores": {
+    "leituras_brutas": 397,
+    "leituras_validas": 394,
+    "leituras_descartadas": 3,
+    "taxa_descarte_pct": 0.76,
+    "motivos_descarte": {
+      "duplicata": 1,
+      "fora do limite físico": 1,
+      "sensor sem medição": 1
+    },
+    "leituras_campo": 360,
+    "leituras_bancada": 34,
+    "risco_total": {
+      "Normal": 289,
+      "Moderado": 56,
+      "Alto": 49
+    },
+    "risco_campo": {
+      "Normal": 276,
+      "Moderado": 46,
+      "Alto": 38
+    },
+    "alertas_campo": 84,
+    "alertas_campo_pct": 23.33,
+    "sem_dados_pct": 0.0,
+    "acoes_automaticas": {
+      "Nenhuma ação necessária": 289,
+      "Monitoramento reforçado": 56,
+      "Notificar produtor": 49
+    },
+    "sensores_ativos": 5,
+    "sensores_com_falha": 1,
+    "ultima_leitura_campo": "2026-09-02T09:00:00Z",
+    "idade_dados_dias": 83.6
+  }
+}

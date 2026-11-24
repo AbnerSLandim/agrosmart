@@ -1,0 +1,4 @@
+ciclo_inicio,duracao_s,situacao,etapas_ok,leituras_validas,descartes,taxa_descarte_pct,alertas_campo,alertas_campo_pct
+2026-11-24T19:34:05Z,1.08,SAUDÁVEL,4/4,394,3,0.76,84,23.33
+2026-11-24T19:34:08Z,1.15,SAUDÁVEL,4/4,394,3,0.76,84,23.33
+2026-11-24T19:34:11Z,1.13,SAUDÁVEL,4/4,394,3,0.76,84,23.33

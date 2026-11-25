@@ -1,0 +1,13 @@
+safra,fazenda,talhao,area_ha,cultura,produtividade_kg_ha,producao_total_kg,irrigacao,custo_producao_brl_ha
+2023/2024,Fazenda Pedralva,Talhao 01 - Sul,42.0,Soja,3285,137970,SIM,4493.2
+2023/2024,Fazenda Pedralva,Talhao 02 - Leste,38.5,Soja,3242,124817,SIM,4280.14
+2023/2024,Fazenda Pedralva,Talhao 03 - Norte,55.2,Soja,2912,160742,NAO,4087.28
+2023/2024,Fazenda Pedralva,Talhao 04 - Oeste,47.8,Soja,3397,162377,SIM,4472.44
+2024/2025,Fazenda Pedralva,Talhao 01 - Sul,42.0,Soja,3517,147714,SIM,4099.48
+2024/2025,Fazenda Pedralva,Talhao 02 - Leste,38.5,Soja,3362,129437,SIM,4128.29
+2024/2025,Fazenda Pedralva,Talhao 03 - Norte,55.2,Soja,3049,168305,NAO,4656.47
+2024/2025,Fazenda Pedralva,Talhao 04 - Oeste,47.8,Soja,3368,160990,SIM,4411.28
+2025/2026,Fazenda Pedralva,Talhao 01 - Sul,42.0,Soja,3580,150360,SIM,4144.98
+2025/2026,Fazenda Pedralva,Talhao 02 - Leste,38.5,Soja,3564,137214,SIM,3988.22
+2025/2026,Fazenda Pedralva,Talhao 03 - Norte,55.2,Soja,3348,184810,NAO,4048.49
+2025/2026,Fazenda Pedralva,Talhao 04 - Oeste,47.8,Soja,3482,166440,SIM,4465.52

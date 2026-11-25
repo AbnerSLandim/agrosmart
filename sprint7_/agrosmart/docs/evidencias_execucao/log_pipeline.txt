@@ -1,0 +1,86 @@
+# Saída real de 'python pipeline.py' (cópia limpa do pacote final)
+# Gerado em 2026-11-24T22:08Z · Python 3.12.3 · pandas 3.0.6
+# Um comando executa as 4 etapas: ingestão → processamento → automação → dashboard
+
+### Ingestão TinkerCad
+
+Leituras do TinkerCad convertidas: 34 (linhas ignoradas: 1)
+Arquivo gerado: dados/brutos/leituras_tinkercad.csv
+
+### Processamento
+
+Leituras do dataset base: 363
+Leituras do TinkerCad: 34
+Colunas: ['sensor_id', 'data_hora', 'fazenda', 'talhao', 'cultura', 'umidade_solo_pct', 'temperatura_solo_c', 'condutividade_ds_m', 'irrigacao_aplicada_mm', 'status_sensor']
+
+Processamento concluído!
+Registros válidos: 394
+Registros descartados: 3
+  - SM-PED-001 2026-07-05T09:00:00Z: duplicata
+  - SM-PED-001 2026-07-20 15:00:00+00:00: fora do limite físico
+  - SM-PED-003 2026-08-24 21:00:00+00:00: sensor sem medição
+Arquivo gerado: dados/processados/dataset_processado_agrosmart.csv
+
+Classificação da umidade:
+classificacao_umidade
+Adequada    208
+Alta        103
+Crítica      49
+Baixa        34
+Name: count, dtype: int64
+
+### Automação
+
+==========================================
+      AUTOMAÇÃO AGROSMART
+==========================================
+Registros de entrada: 394
+Aplicando regras de decisão...
+
+Distribuição dos níveis de risco:
+nivel_risco
+Normal      289
+Moderado     56
+Alto         49
+Name: count, dtype: int64
+
+Ações automáticas:
+acao_automatica
+Nenhuma ação necessária    289
+Monitoramento reforçado     56
+Notificar produtor          49
+Name: count, dtype: int64
+
+Resumo por talhão:
+                       talhao irrigado  leituras  umidade_media_pct  umidade_minima_pct  temperatura_maxima_c  alertas_alto  alertas_moderado  maior_sequencia_critica  irrigacao_total_mm
+              Talhao 01 - Sul      Sim        90               38.5                21.7                  31.7             0                10                        0                23.3
+            Talhao 02 - Leste      Sim        90               32.1                20.4                  32.7             0                13                        0                40.9
+            Talhao 03 - Norte      Não        90               20.9                 6.1                  32.2            38                14                       18                 0.0
+            Talhao 04 - Oeste      Sim        90               37.1                20.3                  32.1             0                 9                        0                34.4
+Talhao 05 - Bancada TinkerCad      Não        34               36.2                 0.1                  27.2            11                10                        9                 0.0
+
+Insights gerados:
+  - Talhão mais crítico: Talhao 03 - Norte teve 38 leituras de risco alto e chegou a 6.1% de umidade (18 leituras seguidas abaixo de 18%).
+  - Comparação entre talhões: Talhões irrigados ficaram com umidade mínima entre 20.3% e 21.7%; o talhão sem irrigação chegou a 6.1%.
+  - Tendência da umidade: A umidade média do solo foi de 40.2% em 2026-06 para 21.0% em 2026-09.
+  - Alertas no período: 38 leituras de risco alto e 46 de risco moderado, de 360 leituras válidas (23%).
+  - Recomendação principal: Priorizar Talhao 03 - Norte: Talhão sem irrigação: avaliar irrigação emergencial ou cobertura do solo
+
+Últimos alertas de risco alto:
+                data_hora                        talhao  umidade_solo_pct  temperatura_solo_c                         alerta    acao_automatica
+2026-09-03 01:00:00+00:00 Talhao 05 - Bancada TinkerCad              17.9                27.2 ALERTA: risco alto (Solo seco) Notificar produtor
+2026-09-03 02:00:00+00:00 Talhao 05 - Bancada TinkerCad              17.9                27.2 ALERTA: risco alto (Solo seco) Notificar produtor
+2026-09-03 03:00:00+00:00 Talhao 05 - Bancada TinkerCad              17.9                27.2 ALERTA: risco alto (Solo seco) Notificar produtor
+2026-09-03 13:00:00+00:00 Talhao 05 - Bancada TinkerCad               0.1                27.2 ALERTA: risco alto (Solo seco) Notificar produtor
+2026-09-03 14:00:00+00:00 Talhao 05 - Bancada TinkerCad               0.1                27.2 ALERTA: risco alto (Solo seco) Notificar produtor
+
+Arquivos gerados:
+  - dados/processados/resultado_automacao_agrosmart.csv
+  - dados/processados/resumo_talhoes.csv
+  - dados/processados/insights_automaticos.csv
+
+### Dashboard
+
+Dashboard gerado: dashboard/agrosmart_dashboard.html
+
+Pipeline concluído. Abra dashboard/agrosmart_dashboard.html no navegador.

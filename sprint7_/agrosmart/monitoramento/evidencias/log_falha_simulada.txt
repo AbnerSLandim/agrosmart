@@ -1,0 +1,10 @@
+[2026-11-24 19:34:04] INFO    ===== Ciclo 1: início da execução do AgroSmart =====
+[2026-11-24 19:34:04] INFO    Ingestão TinkerCad: iniciada
+[2026-11-24 19:34:04] INFO    Ingestão TinkerCad: concluída em 0.03 s
+[2026-11-24 19:34:04] INFO    Processamento: iniciada
+[2026-11-24 19:34:04] ERROR   Processamento: FALHOU (código 1) em 0.31 s - ValueError: leituras_sensores.csv: colunas obrigatórias ausentes: ['umidade_solo_pct']
+[2026-11-24 19:34:04] ERROR   Pipeline interrompido em 'Processamento'; etapas seguintes não executadas
+[2026-11-24 19:34:04] WARNING Verificação [ALERTA] Etapas do pipeline: falharam: Processamento
+[2026-11-24 19:34:04] WARNING Verificação [ALERTA] Arquivos de saída atualizados: ausentes/desatualizados: dataset_processado_agrosmart.csv, registros_descartados.csv, resultado_automacao_agrosmart.csv, resumo_talhoes.csv, insights_automaticos.csv, agrosmart_dashboard.html
+[2026-11-24 19:34:04] WARNING Verificação [ALERTA] Leitura dos indicadores: indicadores não calculados: pipeline falhou (arquivos em disco são de execução anterior)
+[2026-11-24 19:34:04] INFO    ===== Ciclo 1: ATENÇÃO em 0.34 s =====

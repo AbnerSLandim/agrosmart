@@ -1,0 +1,37 @@
+[
+  {
+    "id": "01_abertura",
+    "titulo": "AgroSmart — visão integrada",
+    "texto": "Este é o AgroSmart, uma plataforma didática para acompanhar umidade e temperatura do solo. A solução integra sensores simulados, ingestão, processamento, um motor de regras e um painel analítico. O campo representa quatro talhões de soja com dados sintéticos, enquanto a bancada no TinkerCad valida o comportamento do nó Arduino. A passagem das leituras seriais para o Python é manual e auditável. Dados meteorológicos e de produtividade aparecem apenas como contexto e não entram nas regras atuais."
+  },
+  {
+    "id": "02_sensores",
+    "titulo": "Sensores e bancada TinkerCad",
+    "texto": "Na bancada, o Arduino lê um sensor de umidade do solo e um sensor de temperatura. LEDs verde, amarelo e vermelho indicam os níveis normal, moderado e alto, e o buzzer reforça o alerta local. As capturas registram cenários de solo úmido, solo secando, solo seco e temperatura elevada. O arquivo serial entregue reúne trinta e quatro observações a vinte e sete vírgula dois graus Celsius. Os horários adicionados ao arquivo CSV são sintéticos e servem apenas para ordenar as observações; as capturas de calor pertencem a outro cenário de simulação."
+  },
+  {
+    "id": "03_pipeline",
+    "titulo": "Pipeline e qualidade dos dados",
+    "texto": "O pipeline percorre quatro etapas com um único comando: ingestão, processamento, automação e geração do dashboard. Entram trezentos e sessenta e três registros do conjunto de campo e trinta e quatro registros da bancada. A validação remove uma duplicata, uma umidade fisicamente impossível e um sensor sem medição. Assim, permanecem trezentas e noventa e quatro leituras válidas e três descartes auditáveis. Nenhum valor descartado é interpolado. Os arquivos processados mantêm identificação, data, talhão, cultura e variáveis ambientais, e alimentam tanto o motor de regras quanto o painel."
+  },
+  {
+    "id": "04_automacao",
+    "titulo": "Motor de regras e ações propostas",
+    "texto": "A automação adapta a estrutura de regras da contribuição de Joy ao cenário local. O nível alto ocorre quando a umidade fica abaixo de dezoito por cento ou a temperatura chega a trinta e cinco graus. O nível moderado começa abaixo de vinte e dois por cento ou a partir de trinta graus. Em um talhão irrigado, um risco alto pode propor acionar irrigação. Em um talhão sem irrigação, a proposta é notificar o produtor. Essas ações ficam registradas em CSV: o protótipo não aciona bomba, não envia mensagem e não controla equipamento real. Os dois caminhos de decisão foram cobertos pelos testes automatizados."
+  },
+  {
+    "id": "05_dashboard",
+    "titulo": "Dashboard e principais indicadores",
+    "texto": "O dashboard foi gerado como um arquivo HTML com gráficos em SVG, funcionando offline e sem depender de serviços externos. Nos indicadores de campo, são trezentas e sessenta leituras, quatro talhões e umidade média de trinta e dois vírgula um por cento. Foram identificados trinta e oito riscos altos e quarenta e seis moderados. Quando a bancada é incluída, o total passa para quarenta e nove riscos altos e cinquenta e seis moderados. O Talhão três, ao norte, foi o mais crítico: chegou a seis vírgula um por cento de umidade e acumulou dezoito leituras diárias críticas consecutivas."
+  },
+  {
+    "id": "06_limites",
+    "titulo": "Leitura responsável dos resultados",
+    "texto": "Os gráficos permitem comparar os talhões e acompanhar a evolução da umidade, mas os resultados descrevem o cenário e não provam causalidade. Os dados de campo são sintéticos, a bancada é simulada e sua linha do tempo é artificial. A ingestão ainda é manual. O painel identifica separadamente as leituras de campo e as leituras de bancada para evitar mistura indevida. Todas as limitações estão documentadas no repositório, junto dos registros descartados, dos parâmetros usados e da procedência das contribuições da equipe."
+  },
+  {
+    "id": "07_encerramento",
+    "titulo": "Entrega técnica",
+    "texto": "A entrega reúne arquitetura, circuito e sketch do Arduino, dados brutos e processados, validação em Python, regras de automação, saídas auditáveis, dashboard offline, documentação e treze testes automatizados. Como evolução, ficam a ingestão por MQTT real, o cadastro seguro de atuadores e a revisão dos parâmetros por um especialista agronômico. Este vídeo apresenta uma demonstração narrada dos entregáveis técnicos do AgroSmart, usando dados sintéticos e simulação, com essas limitações declaradas."
+  }
+]

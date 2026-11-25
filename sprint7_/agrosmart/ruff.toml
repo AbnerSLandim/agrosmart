@@ -1,0 +1,6 @@
+# Regras padrao do Ruff (erros de sintaxe, imports e variaveis nao usadas)
+# Fixadas para o resultado do CI nao mudar com a versao da ferramenta.
+exclude = ["video", ".venv"]
+
+[lint]
+select = ["E4", "E7", "E9", "F"]

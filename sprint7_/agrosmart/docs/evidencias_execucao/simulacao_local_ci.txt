@@ -1,0 +1,45 @@
+# Simulação LOCAL das etapas do job 'quality-and-security' do CI (NÃO é execução do GitHub Actions nem do Docker)
+# 2026-11-24T22:09Z · Python 3.12.3 · ruff 0.17.6 · bandit bandit 1.9.4
+# Cópia limpa do pacote final
+
+## ruff check .
+All checks passed!
+exit=0
+
+## bandit -r . -x ./.venv,./tests -ll
+exit=0
+	No issues identified.
+	Total lines of code: 1402
+	Total lines skipped (#nosec): 0
+		Medium: 0
+		High: 0
+		Medium: 0
+		High: 3
+
+## python monitoramento/executor.py
+[2026-11-24 22:09:04] INFO    ===== Ciclo 1: início da execução do AgroSmart =====
+[2026-11-24 22:09:04] INFO    Ingestão TinkerCad: iniciada
+[2026-11-24 22:09:04] INFO    Ingestão TinkerCad: concluída em 0.04 s
+[2026-11-24 22:09:04] INFO    Processamento: iniciada
+[2026-11-24 22:09:04] INFO    Processamento: concluída em 0.39 s
+[2026-11-24 22:09:04] INFO    Automação: iniciada
+[2026-11-24 22:09:05] INFO    Automação: concluída em 0.35 s
+[2026-11-24 22:09:05] INFO    Dashboard: iniciada
+[2026-11-24 22:09:05] INFO    Dashboard: concluída em 0.33 s
+[2026-11-24 22:09:05] INFO    Verificação [OK] Etapas do pipeline: 4 etapas concluídas
+[2026-11-24 22:09:05] INFO    Verificação [OK] Arquivos de saída atualizados: todos gerados neste ciclo
+[2026-11-24 22:09:05] INFO    Verificação [OK] Taxa de descarte: 0.76% (limite 5%)
+[2026-11-24 22:09:05] INFO    Verificação [OK] Leituras sem dados: 0.00% (limite 5%)
+[2026-11-24 22:09:05] INFO    Verificação [OK] Leituras de campo em alerta: 23.33% (limite 30%)
+[2026-11-24 22:09:05] INFO    Verificação [OK] Duração do pipeline: 1.11 s (limite 60 s)
+[2026-11-24 22:09:05] INFO    Verificação [INFO] Atualidade dos dados: última leitura de campo há 83.5 dias (base sintética histórica; em produção seria um limite de alerta)
+[2026-11-24 22:09:05] INFO    ===== Ciclo 1: SAUDÁVEL em 1.13 s =====
+exit=0
+
+## python -m unittest discover -s tests -v (final)
+test_saida_desatualizada_gera_alerta (test_monitoramento.VerificacoesDeSaude.test_saida_desatualizada_gera_alerta) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.233s
+
+OK (skipped=1)

@@ -1,0 +1,27 @@
+{
+  "sensor_id": "SM-PED-004",
+  "tipo_sensor": "Umidade do Solo",
+  "fazenda": "Fazenda Pedralva",
+  "talhao": "Talhao 04 - Oeste",
+  "data_hora": "2026-09-02T09:00:00Z",
+  "valor_medido": 24.3,
+  "unidade": "%",
+  "status_sensor": "operacional",
+  "localizacao": {
+    "latitude": -21.7042,
+    "longitude": -45.4558,
+    "altitude": 872
+  },
+  "metadados": {
+    "fabricante": "AgroSmart Tecnologia",
+    "modelo": "SoloPro-X",
+    "versao_firmware": "v2.3.1",
+    "ultima_calibracao": "2026-08-15"
+  },
+  "condicoes_ambiente": {
+    "temperatura_solo_c": 26.1,
+    "condutividade_ds_m": 1.23
+  },
+  "cultura_associada": "Soja - Ciclo 2026/2027",
+  "gerado_em": "2026-09-02T00:00:00+00:00"
+}

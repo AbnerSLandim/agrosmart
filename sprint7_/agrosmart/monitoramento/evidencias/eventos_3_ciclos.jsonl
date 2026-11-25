@@ -1,0 +1,18 @@
+{"momento": "2026-11-24T19:34:05Z", "evento": "ciclo_inicio", "ciclo": 1}
+{"momento": "2026-11-24T19:34:05Z", "evento": "etapa", "ciclo": 1, "etapa": "Ingestão TinkerCad", "duracao_s": 0.03, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:05Z", "evento": "etapa", "ciclo": 1, "etapa": "Processamento", "duracao_s": 0.35, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:05Z", "evento": "etapa", "ciclo": 1, "etapa": "Automação", "duracao_s": 0.35, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:06Z", "evento": "etapa", "ciclo": 1, "etapa": "Dashboard", "duracao_s": 0.32, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:06Z", "evento": "ciclo_fim", "ciclo": 1, "situacao": "SAUDÁVEL", "duracao_s": 1.08}
+{"momento": "2026-11-24T19:34:08Z", "evento": "ciclo_inicio", "ciclo": 2}
+{"momento": "2026-11-24T19:34:08Z", "evento": "etapa", "ciclo": 2, "etapa": "Ingestão TinkerCad", "duracao_s": 0.03, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:08Z", "evento": "etapa", "ciclo": 2, "etapa": "Processamento", "duracao_s": 0.36, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:09Z", "evento": "etapa", "ciclo": 2, "etapa": "Automação", "duracao_s": 0.38, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:09Z", "evento": "etapa", "ciclo": 2, "etapa": "Dashboard", "duracao_s": 0.37, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:09Z", "evento": "ciclo_fim", "ciclo": 2, "situacao": "SAUDÁVEL", "duracao_s": 1.15}
+{"momento": "2026-11-24T19:34:11Z", "evento": "ciclo_inicio", "ciclo": 3}
+{"momento": "2026-11-24T19:34:11Z", "evento": "etapa", "ciclo": 3, "etapa": "Ingestão TinkerCad", "duracao_s": 0.04, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:11Z", "evento": "etapa", "ciclo": 3, "etapa": "Processamento", "duracao_s": 0.34, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:12Z", "evento": "etapa", "ciclo": 3, "etapa": "Automação", "duracao_s": 0.4, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:12Z", "evento": "etapa", "ciclo": 3, "etapa": "Dashboard", "duracao_s": 0.34, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T19:34:12Z", "evento": "ciclo_fim", "ciclo": 3, "situacao": "SAUDÁVEL", "duracao_s": 1.13}

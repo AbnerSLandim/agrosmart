@@ -1,0 +1,6 @@
+﻿talhao,irrigado,leituras,umidade_media_pct,umidade_minima_pct,temperatura_maxima_c,alertas_alto,alertas_moderado,maior_sequencia_critica,irrigacao_total_mm
+Talhao 01 - Sul,Sim,90,38.5,21.7,31.7,0,10,0,23.3
+Talhao 02 - Leste,Sim,90,32.1,20.4,32.7,0,13,0,40.9
+Talhao 03 - Norte,Não,90,20.9,6.1,32.2,38,14,18,0.0
+Talhao 04 - Oeste,Sim,90,37.1,20.3,32.1,0,9,0,34.4
+Talhao 05 - Bancada TinkerCad,Não,34,36.2,0.1,27.2,11,10,9,0.0

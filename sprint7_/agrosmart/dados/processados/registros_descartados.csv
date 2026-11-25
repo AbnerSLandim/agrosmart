@@ -1,0 +1,4 @@
+﻿sensor_id,data_hora,fazenda,talhao,cultura,umidade_solo_pct,temperatura_solo_c,condutividade_ds_m,irrigacao_aplicada_mm,status_sensor,motivo_descarte
+SM-PED-001,2026-07-05T09:00:00Z,Fazenda Pedralva,Talhao 01 - Sul,Soja - Ciclo 2026/2027,42.4,22.4,2.2,0.0,operacional,duplicata
+SM-PED-001,2026-07-20 15:00:00+00:00,Fazenda Pedralva,Talhao 01 - Sul,Soja - Ciclo 2026/2027,148.7,22.4,1.71,0.0,operacional,fora do limite físico
+SM-PED-003,2026-08-24 21:00:00+00:00,Fazenda Pedralva,Talhao 03 - Norte,Soja - Ciclo 2026/2027,,,,0.0,falha_comunicacao,sensor sem medição

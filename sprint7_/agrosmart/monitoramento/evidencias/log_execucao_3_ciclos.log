@@ -1,0 +1,53 @@
+[2026-11-24 19:34:05] INFO    ===== Ciclo 1: início da execução do AgroSmart =====
+[2026-11-24 19:34:05] INFO    Ingestão TinkerCad: iniciada
+[2026-11-24 19:34:05] INFO    Ingestão TinkerCad: concluída em 0.03 s
+[2026-11-24 19:34:05] INFO    Processamento: iniciada
+[2026-11-24 19:34:05] INFO    Processamento: concluída em 0.35 s
+[2026-11-24 19:34:05] INFO    Automação: iniciada
+[2026-11-24 19:34:05] INFO    Automação: concluída em 0.35 s
+[2026-11-24 19:34:05] INFO    Dashboard: iniciada
+[2026-11-24 19:34:06] INFO    Dashboard: concluída em 0.32 s
+[2026-11-24 19:34:06] INFO    Verificação [OK] Etapas do pipeline: 4 etapas concluídas
+[2026-11-24 19:34:06] INFO    Verificação [OK] Arquivos de saída atualizados: todos gerados neste ciclo
+[2026-11-24 19:34:06] INFO    Verificação [OK] Taxa de descarte: 0.76% (limite 5%)
+[2026-11-24 19:34:06] INFO    Verificação [OK] Leituras sem dados: 0.00% (limite 5%)
+[2026-11-24 19:34:06] INFO    Verificação [OK] Leituras de campo em alerta: 23.33% (limite 30%)
+[2026-11-24 19:34:06] INFO    Verificação [OK] Duração do pipeline: 1.05 s (limite 60 s)
+[2026-11-24 19:34:06] INFO    Verificação [INFO] Atualidade dos dados: última leitura de campo há 83.4 dias (base sintética histórica; em produção seria um limite de alerta)
+[2026-11-24 19:34:06] INFO    ===== Ciclo 1: SAUDÁVEL em 1.08 s =====
+[2026-11-24 19:34:06] INFO    Próximo ciclo em 2 s (Ctrl+C encerra)
+[2026-11-24 19:34:08] INFO    ===== Ciclo 2: início da execução do AgroSmart =====
+[2026-11-24 19:34:08] INFO    Ingestão TinkerCad: iniciada
+[2026-11-24 19:34:08] INFO    Ingestão TinkerCad: concluída em 0.03 s
+[2026-11-24 19:34:08] INFO    Processamento: iniciada
+[2026-11-24 19:34:08] INFO    Processamento: concluída em 0.36 s
+[2026-11-24 19:34:08] INFO    Automação: iniciada
+[2026-11-24 19:34:09] INFO    Automação: concluída em 0.38 s
+[2026-11-24 19:34:09] INFO    Dashboard: iniciada
+[2026-11-24 19:34:09] INFO    Dashboard: concluída em 0.37 s
+[2026-11-24 19:34:09] INFO    Verificação [OK] Etapas do pipeline: 4 etapas concluídas
+[2026-11-24 19:34:09] INFO    Verificação [OK] Arquivos de saída atualizados: todos gerados neste ciclo
+[2026-11-24 19:34:09] INFO    Verificação [OK] Taxa de descarte: 0.76% (limite 5%)
+[2026-11-24 19:34:09] INFO    Verificação [OK] Leituras sem dados: 0.00% (limite 5%)
+[2026-11-24 19:34:09] INFO    Verificação [OK] Leituras de campo em alerta: 23.33% (limite 30%)
+[2026-11-24 19:34:09] INFO    Verificação [OK] Duração do pipeline: 1.14 s (limite 60 s)
+[2026-11-24 19:34:09] INFO    Verificação [INFO] Atualidade dos dados: última leitura de campo há 83.4 dias (base sintética histórica; em produção seria um limite de alerta)
+[2026-11-24 19:34:09] INFO    ===== Ciclo 2: SAUDÁVEL em 1.15 s =====
+[2026-11-24 19:34:09] INFO    Próximo ciclo em 2 s (Ctrl+C encerra)
+[2026-11-24 19:34:11] INFO    ===== Ciclo 3: início da execução do AgroSmart =====
+[2026-11-24 19:34:11] INFO    Ingestão TinkerCad: iniciada
+[2026-11-24 19:34:11] INFO    Ingestão TinkerCad: concluída em 0.04 s
+[2026-11-24 19:34:11] INFO    Processamento: iniciada
+[2026-11-24 19:34:11] INFO    Processamento: concluída em 0.34 s
+[2026-11-24 19:34:11] INFO    Automação: iniciada
+[2026-11-24 19:34:12] INFO    Automação: concluída em 0.40 s
+[2026-11-24 19:34:12] INFO    Dashboard: iniciada
+[2026-11-24 19:34:12] INFO    Dashboard: concluída em 0.34 s
+[2026-11-24 19:34:12] INFO    Verificação [OK] Etapas do pipeline: 4 etapas concluídas
+[2026-11-24 19:34:12] INFO    Verificação [OK] Arquivos de saída atualizados: todos gerados neste ciclo
+[2026-11-24 19:34:12] INFO    Verificação [OK] Taxa de descarte: 0.76% (limite 5%)
+[2026-11-24 19:34:12] INFO    Verificação [OK] Leituras sem dados: 0.00% (limite 5%)
+[2026-11-24 19:34:12] INFO    Verificação [OK] Leituras de campo em alerta: 23.33% (limite 30%)
+[2026-11-24 19:34:12] INFO    Verificação [OK] Duração do pipeline: 1.12 s (limite 60 s)
+[2026-11-24 19:34:12] INFO    Verificação [INFO] Atualidade dos dados: última leitura de campo há 83.4 dias (base sintética histórica; em produção seria um limite de alerta)
+[2026-11-24 19:34:12] INFO    ===== Ciclo 3: SAUDÁVEL em 1.13 s =====

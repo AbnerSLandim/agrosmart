@@ -1,0 +1,36 @@
+{"momento": "2026-11-24T21:22:56Z", "evento": "ciclo_inicio", "ciclo": 1}
+{"momento": "2026-11-24T21:22:56Z", "evento": "etapa", "ciclo": 1, "etapa": "Ingestão TinkerCad", "duracao_s": 0.04, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:57Z", "evento": "etapa", "ciclo": 1, "etapa": "Processamento", "duracao_s": 0.36, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:57Z", "evento": "etapa", "ciclo": 1, "etapa": "Automação", "duracao_s": 0.36, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:57Z", "evento": "etapa", "ciclo": 1, "etapa": "Dashboard", "duracao_s": 0.35, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:57Z", "evento": "ciclo_fim", "ciclo": 1, "situacao": "SAUDÁVEL", "duracao_s": 1.13}
+{"momento": "2026-11-24T21:22:58Z", "evento": "ciclo_inicio", "ciclo": 2}
+{"momento": "2026-11-24T21:22:58Z", "evento": "etapa", "ciclo": 2, "etapa": "Ingestão TinkerCad", "duracao_s": 0.05, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:59Z", "evento": "etapa", "ciclo": 2, "etapa": "Processamento", "duracao_s": 0.35, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:59Z", "evento": "etapa", "ciclo": 2, "etapa": "Automação", "duracao_s": 0.37, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:59Z", "evento": "etapa", "ciclo": 2, "etapa": "Dashboard", "duracao_s": 0.33, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:22:59Z", "evento": "ciclo_fim", "ciclo": 2, "situacao": "SAUDÁVEL", "duracao_s": 1.11}
+{"momento": "2026-11-24T21:23:00Z", "evento": "ciclo_inicio", "ciclo": 3}
+{"momento": "2026-11-24T21:23:00Z", "evento": "etapa", "ciclo": 3, "etapa": "Ingestão TinkerCad", "duracao_s": 0.03, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:23:01Z", "evento": "etapa", "ciclo": 3, "etapa": "Processamento", "duracao_s": 0.33, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:23:01Z", "evento": "etapa", "ciclo": 3, "etapa": "Automação", "duracao_s": 0.35, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:23:01Z", "evento": "etapa", "ciclo": 3, "etapa": "Dashboard", "duracao_s": 0.33, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T21:23:01Z", "evento": "ciclo_fim", "ciclo": 3, "situacao": "SAUDÁVEL", "duracao_s": 1.05}
+{"momento": "2026-11-24T22:20:56Z", "evento": "ciclo_inicio", "ciclo": 1}
+{"momento": "2026-11-24T22:20:56Z", "evento": "etapa", "ciclo": 1, "etapa": "Ingestão TinkerCad", "duracao_s": 0.07, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:20:56Z", "evento": "etapa", "ciclo": 1, "etapa": "Processamento", "duracao_s": 0.74, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:20:57Z", "evento": "etapa", "ciclo": 1, "etapa": "Automação", "duracao_s": 0.78, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:20:58Z", "evento": "etapa", "ciclo": 1, "etapa": "Dashboard", "duracao_s": 0.78, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:20:58Z", "evento": "ciclo_fim", "ciclo": 1, "situacao": "SAUDÁVEL", "duracao_s": 2.4}
+{"momento": "2026-11-24T22:21:00Z", "evento": "ciclo_inicio", "ciclo": 2}
+{"momento": "2026-11-24T22:21:00Z", "evento": "etapa", "ciclo": 2, "etapa": "Ingestão TinkerCad", "duracao_s": 0.06, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:01Z", "evento": "etapa", "ciclo": 2, "etapa": "Processamento", "duracao_s": 0.69, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:01Z", "evento": "etapa", "ciclo": 2, "etapa": "Automação", "duracao_s": 0.7, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:02Z", "evento": "etapa", "ciclo": 2, "etapa": "Dashboard", "duracao_s": 0.67, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:02Z", "evento": "ciclo_fim", "ciclo": 2, "situacao": "SAUDÁVEL", "duracao_s": 2.15}
+{"momento": "2026-11-24T22:21:04Z", "evento": "ciclo_inicio", "ciclo": 3}
+{"momento": "2026-11-24T22:21:04Z", "evento": "etapa", "ciclo": 3, "etapa": "Ingestão TinkerCad", "duracao_s": 0.06, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:05Z", "evento": "etapa", "ciclo": 3, "etapa": "Processamento", "duracao_s": 0.66, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:06Z", "evento": "etapa", "ciclo": 3, "etapa": "Automação", "duracao_s": 0.7, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:06Z", "evento": "etapa", "ciclo": 3, "etapa": "Dashboard", "duracao_s": 0.69, "codigo": 0, "status": "OK"}
+{"momento": "2026-11-24T22:21:06Z", "evento": "ciclo_fim", "ciclo": 3, "situacao": "SAUDÁVEL", "duracao_s": 2.13}
